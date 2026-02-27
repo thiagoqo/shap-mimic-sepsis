@@ -2,20 +2,6 @@
 
 This repository contains code for analyzing and predicting sepsis using the MIMIC (Medical Information Mart for Intensive Care) dataset. The project implements various machine learning models to predict sepsis onset and analyze patient trajectories.
 
-## Citation
-
-If you use this dataset or code in your research, please cite our paper:
-
-```bibtex
-@inproceedings{huang2025mimic,
-  title={MIMIC-Sepsis: A Curated Benchmark for Modeling and Learning from Sepsis Trajectories in the ICU},
-  author={Huang, Yong and Yang, Zhongqi and Rahmani, Amir M},
-  booktitle={IEEE-EMBS International Conference on Biomedical and Health Informatics 2025},
-  year={2025}
-}
-```
-
-
 ## Project Overview
 
 The project focuses on:
@@ -144,6 +130,19 @@ The benchmark script supports various configurations:
 
 ```python
 python src/benchmark.py
+```
+
+## Citation
+
+This code was developed based on the following work; please cite it if you use this dataset or code in your research.
+
+```bibtex
+@inproceedings{huang2025mimic,
+  title={MIMIC-Sepsis: A Curated Benchmark for Modeling and Learning from Sepsis Trajectories in the ICU},
+  author={Huang, Yong and Yang, Zhongqi and Rahmani, Amir M},
+  booktitle={IEEE-EMBS International Conference on Biomedical and Health Informatics 2025},
+  year={2025}
+}
 ```
 
 ## Contributing
